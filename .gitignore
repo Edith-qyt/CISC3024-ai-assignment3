@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Office temporary lock files
+~$*
+
+# OS junk
+Thumbs.db
+.DS_Store

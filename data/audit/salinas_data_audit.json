@@ -1,0 +1,106 @@
+{
+  "cube_shape_original": [
+    512,
+    217,
+    204
+  ],
+  "cube_shape_after_band_removal": [
+    512,
+    217,
+    204
+  ],
+  "ground_truth_shape": [
+    512,
+    217
+  ],
+  "source_product": "Salinas_corrected.mat",
+  "source_band_count": 204,
+  "removed_bands_1_based": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    224
+  ],
+  "retained_band_count": 204,
+  "labeled_pixel_count": 54129,
+  "class_count": 16,
+  "class_labels_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "class_counts": {
+    "0": 2009,
+    "1": 3726,
+    "2": 1976,
+    "3": 1394,
+    "4": 2678,
+    "5": 3959,
+    "6": 3579,
+    "7": 11271,
+    "8": 6203,
+    "9": 3278,
+    "10": 1068,
+    "11": 1927,
+    "12": 916,
+    "13": 1070,
+    "14": 7268,
+    "15": 1807
+  },
+  "source_urls": {
+    "cube": "https://www.ehu.eus/ccwintco/uploads/a/a3/Salinas_corrected.mat",
+    "ground_truth": "https://www.ehu.eus/ccwintco/uploads/f/fa/Salinas_gt.mat"
+  },
+  "band_removal_action": "no additional removal; input is the already-corrected 204-band product",
+  "preprocessing": "fixed AVIRIS water-absorption band convention; no learned scaling",
+  "download_source_urls": {
+    "Salinas_corrected.mat": "https://huggingface.co/datasets/danaroth/salinas/resolve/main/Salinas_corrected.mat?download=true",
+    "Salinas_gt.mat": "https://huggingface.co/datasets/danaroth/salinas/resolve/main/Salinas_gt.mat?download=true"
+  },
+  "zenodo_record": "https://doi.org/10.5281/zenodo.15771735",
+  "file_audit": {
+    "Salinas_corrected.mat": {
+      "path": "D:\\UM\\2026fall\\cisc3024\\ai assign3\\data\\raw\\Salinas_corrected.mat",
+      "bytes": 26552770,
+      "md5": "485d8802f4a6b4ebc0767d48dd0da06b",
+      "expected_zenodo_md5": "485d8802f4a6b4ebc0767d48dd0da06b",
+      "match": true
+    },
+    "Salinas_gt.mat": {
+      "path": "D:\\UM\\2026fall\\cisc3024\\ai assign3\\data\\raw\\Salinas_gt.mat",
+      "bytes": 4277,
+      "md5": "7b8da653a61bb0271b27b37fb926390f",
+      "expected_zenodo_md5": "7b8da653a61bb0271b27b37fb926390f",
+      "match": true
+    }
+  }
+}
